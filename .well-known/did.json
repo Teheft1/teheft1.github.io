@@ -1,0 +1,26 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:teheft1.github.io",
+  "verificationMethod": [
+    {
+      "id": "did:web:teheft1.github.io#owner",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:teheft1.github.io",
+      "publicKeyJwk": {
+            "kty":"EC",
+            "crv":"secp256k1",
+            "x":"v4Pn9gdJa75MgSSxx+dQMb+bUHu7/TNk6pDWIAjqdTI=",
+            "y":"KqOQLKehmIUnHzr79DM4ovqSRp15tb60hWRYt+Hclx4="
+        }
+    }
+  ],
+  "authentication": [
+    "did:web:teheft1.github.io#owner"
+  ],
+  "assertionMethod": [
+    "did:web:teheft1.github.io#owner"
+  ]
+}
